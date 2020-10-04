@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.body{
+    height: 150px;
+    position: relative;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.body{
+    background-color: #f5f5dc;
+}
+#accordion .body{
+    display : none;
+    padding : 150px;
+}
+
+#accordion .active .body {
+    display : block;
+}
+
+.header{
+    background-color: cornflowerblue;
+    text-align: center;
+    border: 5px solid rgb(5, 6, 8);
+    padding: 25px 15px;
+    font-weight: bold;
+    cursor: grab;
+    font-size: 20px;
+}
+
+#accordion .panel{
+    margin: 5px;
+    padding : 5px;
+    border-radius : 2px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 5px;
+}
+
+.p_1{
+    text-align: justify;
+    width: 600px;
+    float: left;
+    height: 300px;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+.p_2{
+    text-align: justify;
+    width: 600px;
+    float: left;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+.p_3{
+    text-align: justify;
+    width: 600px;
+    float: left;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+.a-1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
+    margin-left: 155px;
+    margin-bottom: 180px;
+    font-size: 20px;
+    background-color: #00263e;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+}
+
+.a-2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
+    margin-left: 155px;
+    margin-bottom: 120px;
+    font-size: 20px;
+    background-color: #00263e;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+}
+.a-3{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
+    margin-left: 155px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    background-color: #00263e;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+}
+
+.header:hover{
+    background-color: purple;
+}

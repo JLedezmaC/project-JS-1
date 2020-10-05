@@ -6,15 +6,14 @@ body{
 .body{
     height: 150px;
     position: relative;
+    background-color: #f5f5dc;
 }
 .clearfix::after{
     content: "";
     clear: both;
     display: table;
 }
-.body{
-    background-color: #f5f5dc;
-}
+
 #accordion .body{
     display : none;
     padding : 150px;

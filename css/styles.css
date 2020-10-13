@@ -22,7 +22,9 @@ body{
 #accordion .active .body {
     display : block;
 }
-
+#accordion .close .body{
+    display:none;
+}
 .header{
     background-color: cornflowerblue;
     text-align: center;
@@ -30,7 +32,12 @@ body{
     padding: 25px 15px;
     font-weight: bold;
     cursor: grab;
-    font-size: 20px;
+    font-size: 15px;
+    display: block;
+}
+
+.remove{
+    display: none;
 }
 
 #accordion .panel{
@@ -114,4 +121,9 @@ img{
 
 .header:hover{
     background-color: purple;
+}
+
+.h2{
+    font-weight: bold;
+    
 }
